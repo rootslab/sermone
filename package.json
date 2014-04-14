@@ -1,6 +1,6 @@
 {
   "name": "sermone",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Sermone, a Redis protocol encoder.",
   "homepage": "https://github.com/rootslab/sermone",
   "private": false,
@@ -22,7 +22,7 @@
     "email": "44gatti@gmail.com"
   },
   "dependencies": {
-	"bolgia" : ">=2.1.1"
+    "bolgia" : ">=2.1.1"
     },
   "devDependencies": {},
   "main": "index",
