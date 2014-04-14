@@ -1,0 +1,39 @@
+{
+  "name": "sermone",
+  "version": "1.0.0",
+  "description": "Sermone, a Redis protocol encoder.",
+  "homepage": "https://github.com/rootslab/sermone",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rootslab/sermone.git"
+  },
+  "keywords": [
+    "sermone",
+    "redis",
+    "encoder",
+    "protocol",
+    "redis protocol",
+    "spade"
+  ],
+  "tags": [],
+  "author": {
+    "name": "Guglielmo Ferri",
+    "email": "44gatti@gmail.com"
+  },
+  "dependencies": {
+    },
+  "devDependencies": {},
+  "main": "index",
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "scripts": {
+    "test": "bash test/run.sh"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "bugs": {
+    "url": "https://github.com/rootslab/sermone/issues"
+  }
+}
