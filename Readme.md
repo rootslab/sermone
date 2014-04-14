@@ -33,7 +33,7 @@ $ npm test
 
 ```javascript
 var Sermone  = require( 'sermone' );
-Sermone.encode( 'key', 'value', [ 1, 2, 3 ], function () {} );
+Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
 ```
 
 ###Methods
@@ -45,7 +45,7 @@ Sermone.encode( 'key', 'value', [ 1, 2, 3 ], function () {} );
  * return an hash:
  * {
  *  bulks : Number
- *	, cmd : String
+ *  , cmd : String
  *  , ecmd : String
  *  , fn : Function || undefined
  * }
