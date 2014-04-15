@@ -35,6 +35,7 @@ $ npm test
 var Sermone  = require( 'sermone' );
 Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
 ```
+> See [examples](example/).
 
 ###Methods
 
