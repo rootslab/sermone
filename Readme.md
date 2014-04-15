@@ -46,8 +46,8 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
  * {
  *  bulks : Number
  *  , cmd : String
- *  , ecmd : String || Buffer
- *  , fn : Function || undefined
+ *  , ecmd : String || Buffer ( RESTORE cmd )
+ *  , fn : Function
  * }
  */
 Sermone#encode( String cmd [, Function fn ] ) : Object
