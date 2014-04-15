@@ -46,7 +46,7 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
  * {
  *  bulks : Number
  *  , cmd : String
- *  , ecmd : String
+ *  , ecmd : String || Buffer
  *  , fn : Function || undefined
  * }
  */

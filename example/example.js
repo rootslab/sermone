@@ -1,11 +1,8 @@
-#!/usr/bin/env node
-
-/* 
- * Sermone#encode test
- */
-
 var log = console.log
     , assert = require( 'assert' )
     , util = require( 'util' )
     , Sermone = require( '../' )
+    , result = Sermone.encode( 'CMD', 'ARG0', [ 'ARG1', 'ARG2', 'ARG3' ] )
     ;
+
+log( result );
