@@ -1,6 +1,6 @@
 {
   "name": "sermone",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Sermone, a Redis protocol encoder.",
   "homepage": "https://github.com/rootslab/sermone",
   "private": false,
@@ -27,7 +27,7 @@
   "devDependencies": {},
   "main": "index",
   "engines": {
-    "node": ">=0.10.x"
+    "node": ">=0.4.x"
   },
   "scripts": {
     "test": "bash test/run.sh"
