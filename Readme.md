@@ -6,7 +6,7 @@
 
 [![NPM](https://nodei.co/npm-dl/sermone.png)](https://nodei.co/npm/sermone/)
 
-> _Sermone_, a __Redis__ protocol encoder.
+> _Sermone_, a __Redis__ command encoder.
 
 ###Install
 
