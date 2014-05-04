@@ -45,7 +45,11 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
 
 ```javascript
 /*
- * return an hash:
+ * Encode a Redis command.
+ *
+ * NOTE: 'cmd' and 'key' arguments should be strings.
+ *
+ * It returns an hash:
  * {
  *  bulks : Number
  *  , cmd : String
