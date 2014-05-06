@@ -47,7 +47,9 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
 /*
  * Encode a Redis command.
  *
- * NOTE: 'cmd' and 'key' arguments should be strings.
+ * NOTE: 'cmd' and 'key' arguments should be strings, however,
+ * for convenience, 'key' is converted to String before encoding,
+ * then you can use Numbers for keys without problems.
  *
  * It returns an hash:
  * {
