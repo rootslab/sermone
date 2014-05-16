@@ -41,7 +41,7 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
 
 ###Methods
 
-> Arguments within [ ] are optional.
+> Arguments within [ ] are optional, '|' indicates multiple type for an argument.
 
 ```javascript
 /*
@@ -55,17 +55,18 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
  * {
  *  bulks : Number
  *  , cmd : String
- *  , ecmd : String || Buffer ( RESTORE cmd )
+ *  , ecmd : String | Buffer ( RESTORE cmd )
  *  , fn : Function
+ *  , zn : Function
  * }
  */
-Sermone#encode( String cmd [, Function fn ] ) : Object
+Sermone#encode( String cmd [, Function fn [, Function zn ] ] ) : Object
 
-Sermone#encode( String cmd [, String key [, Function fn ] ] ) : Object
+Sermone#encode( String cmd [, String key [, Function fn [, Function zn ] ] ] ) : Object
 
-Sermone#encode( String cmd [, String key [, Object object [, Function fn ] ] ] ) : Object
+Sermone#encode( String cmd [, String key [, Object object [, Function fn [, Function zn ] ] ] ] ) : Object
 
-Sermone#encode( String cmd [, String key [, Array array [, Function fn ] ] ] ) : Object
+Sermone#encode( String cmd [, String key [, Array array [, Function fn [, Function zn ] ] ] ] ) : Object
 
 ```
 
@@ -93,4 +94,4 @@ Sermone#encode( String cmd [, String key [, Array array [, Function fn ] ] ] ) :
 > IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-> SOFTWARE OR THE USE OR OTHER DEALINGS IN T
+> SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
