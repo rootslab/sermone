@@ -1,6 +1,6 @@
 {
   "name": "sermone",
-  "version": "1.5.2",
+  "version": "1.6.0",
   "description": "Sermone, a Redis command encoder.",
   "homepage": "https://github.com/rootslab/sermone",
   "private": false,
@@ -29,7 +29,8 @@
     "node": ">=0.4.x"
   },
   "scripts": {
-    "test": "bash test/run.sh"
+    "test": "bash test/run.sh",
+    "bench": "bash bench/run.sh"
   },
   "license": "MIT",
   "readmeFilename": "Readme.md",

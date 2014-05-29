@@ -32,6 +32,13 @@ $ cd sermone/
 $ npm test
 ```
 
+###Run Benchmark
+
+```bash
+$ cd sermone/
+$ npm run-script bench
+```
+
 ###Sample Usage
 
 ```javascript
