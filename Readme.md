@@ -1,6 +1,7 @@
 ###Sermone
 [![build status](https://secure.travis-ci.org/rootslab/sermone.png?branch=master)](http://travis-ci.org/rootslab/sermone) 
 [![NPM version](https://badge.fury.io/js/sermone.png)](http://badge.fury.io/js/sermone)
+[![build status](https://david-dm.org/rootslab/sermone.png)](https://david-dm.org/rootslab/sermone)
 
 [![NPM](https://nodei.co/npm/sermone.png?downloads=true&stars=true)](https://nodei.co/npm/sermone/)
 

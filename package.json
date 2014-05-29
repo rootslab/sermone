@@ -21,7 +21,7 @@
     "email": "44gatti@gmail.com"
   },
   "dependencies": {
-    "bolgia" : ">=2.5.0"
+    "bolgia" : ">=2.5.1"
     },
   "devDependencies": {},
   "main": "index",
