@@ -1,6 +1,6 @@
 {
   "name": "sermone",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Sermone, a Redis command encoder.",
   "homepage": "https://github.com/rootslab/sermone",
   "private": false,
@@ -11,10 +11,11 @@
   "keywords": [
     "sermone",
     "redis",
-    "encoder",
-    "protocol",
-    "redis protocol",
-    "redis commands"
+    "Redis",
+    "command encoder",
+    "RESP",
+    "redis commands",
+    "redis protocol"
   ],
   "author": {
     "name": "Guglielmo Ferri",
