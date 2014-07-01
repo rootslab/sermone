@@ -34,8 +34,8 @@ gbits = result.ecmd.length * l / 128 / 1024 / 1024;
 
 log( '- time elapsed: %d secs', etime );
 
-log( '- operation rate: %d Kops/sec', ( l / etime / 1024 ).toFixed( 2 ) );
+log( '- data encoding rate: %d Gbit/sec', ( gbits / etime ).toFixed( 3 ) );
 
 log( '- total data encoded: %d Gbits', gbits.toFixed( 3 ) );
 
-log( '- data encoding rate: %d Gbit/sec', ( gbits / etime ).toFixed( 3 ) );
+log( '- operation rate: %d Kops/sec', ( l / etime / 1024 ).toFixed( 2 ) );
