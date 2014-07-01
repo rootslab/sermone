@@ -9,7 +9,7 @@
 
 > **_Sermone_**, a __Redis__ command encoder.
 
-> Try __[Syllabus](https://github.com/rootslab/syllabus)__ a collection of mix-ins for __Redis__ commands, builded upon **_Sermone_**.
+> Try __[Syllabus](https://github.com/rootslab/syllabus)__ a collection of mix-ins for __Redis__ commands, builded upon **_Sermone.encode_**.
 
 ###Install
 
