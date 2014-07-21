@@ -1,11 +1,19 @@
 ###Sermone
-[![build status](https://secure.travis-ci.org/rootslab/sermone.png?branch=master)](http://travis-ci.org/rootslab/sermone) 
-[![NPM version](https://badge.fury.io/js/sermone.png)](http://badge.fury.io/js/sermone)
-[![build status](https://david-dm.org/rootslab/sermone.png)](https://david-dm.org/rootslab/sermone)
 
-[![NPM](https://nodei.co/npm/sermone.png?downloads=true&stars=true)](https://nodei.co/npm/sermone/)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/sermone#mit-license)
 
-[![NPM](https://nodei.co/npm-dl/sermone.png)](https://nodei.co/npm/sermone/)
+[![NPM VERSION](http://img.shields.io/npm/v/sermone.svg)](https://www.npmjs.org/package/sermone)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/sermone.svg)](http://travis-ci.org/rootslab/sermone)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/sermone.svg)](https://david-dm.org/rootslab/sermone)
+
+[![NPM GRAPH1](https://nodei.co/npm-dl/sermone.png)](https://nodei.co/npm/sermone/)
+
+[![GITHUB tag](http://img.shields.io/github/tag/rootslab/sermone.svg)](https://github.com/rootslab/sermone/tags)
+[![ISSUES](http://img.shields.io/github/issues/rootslab/sermone.svg)](https://github.com/rootslab/sermone/issues)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/sermone.svg)](http://npm-stat.com/charts.html?package=sermone)
+
+[![NPM GRAPH2](https://nodei.co/npm/sermone.png?downloads=true&stars=true)](https://nodei.co/npm/sermone/)
 
 > **_Sermone_**, a __Redis__ command encoder.
 
