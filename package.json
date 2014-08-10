@@ -1,6 +1,6 @@
 {
   "name": "sermone",
-  "version": "1.7.2",
+  "version": "1.7.3",
   "description": "Sermone, a Redis command encoder.",
   "homepage": "https://github.com/rootslab/sermone",
   "private": false,
@@ -22,7 +22,7 @@
     "email": "44gatti@gmail.com"
   },
   "dependencies": {
-    "bolgia" : ">=2.6.1"
+    "bolgia" : ">=2.7.0"
     },
   "devDependencies": {},
   "main": "index",
@@ -30,7 +30,7 @@
     "node": ">=0.4.x"
   },
   "scripts": {
-    "test": "bash test/run.sh",
+    "test": "node test/run.js",
     "bench": "bash bench/run.sh"
   },
   "license": "MIT",
