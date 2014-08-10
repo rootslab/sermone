@@ -1,6 +1,6 @@
 {
   "name": "sermone",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "description": "Sermone, a Redis command encoder.",
   "homepage": "https://github.com/rootslab/sermone",
   "private": false,

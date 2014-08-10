@@ -1,13 +1,16 @@
 ###Sermone
 
-[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rootslab/sermone#mit-license)
-[![GITTIP](http://img.shields.io/gittip/rootslab.svg)](https://www.gittip.com/rootslab/)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/sermone.svg)](http://npm-stat.com/charts.html?package=sermone)
+[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/sermone.svg?style=flat)](https://codeclimate.com/github/rootslab/sermone)
+[![CODECLIMATE-TEST-COVERAGE](http://img.shields.io/codeclimate/coverage/github/rootslab/sermone.svg?style=flat)](https://codeclimate.com/github/rootslab/sermone)
 
-[![NPM VERSION](http://img.shields.io/npm/v/sermone.svg)](https://www.npmjs.org/package/sermone)
-[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/sermone.svg)](http://travis-ci.org/rootslab/sermone)
-[![BUILD STATUS](http://img.shields.io/david/rootslab/sermone.svg)](https://david-dm.org/rootslab/sermone)
-[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/sermone.svg)](https://david-dm.org/rootslab/sermone#info=devDependencies)
+[![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/sermone#mit-license)
+[![GITTIP](http://img.shields.io/gittip/rootslab.svg?style=flat)](https://www.gittip.com/rootslab/)
+[![NPM DOWNLOADS](http://img.shields.io/npm/dm/sermone.svg?style=flat)](http://npm-stat.com/charts.html?package=sermone)
+
+[![NPM VERSION](http://img.shields.io/npm/v/sermone.svg?style=flat)](https://www.npmjs.org/package/sermone)
+[![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/sermone.svg?style=flat)](http://travis-ci.org/rootslab/sermone)
+[![BUILD STATUS](http://img.shields.io/david/rootslab/sermone.svg?style=flat)](https://david-dm.org/rootslab/sermone)
+[![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/sermone.svg?style=flat)](https://david-dm.org/rootslab/sermone#info=devDependencies)
 
 [![NPM GRAPH1](https://nodei.co/npm-dl/sermone.png)](https://nodei.co/npm/sermone/)
 
