@@ -1,6 +1,4 @@
 var log = console.log
-    , assert = require( 'assert' )
-    , util = require( 'util' )
     , Sermone = require( '../' )
     , result = Sermone.encode( 'CMD', 'ARG0', [ 'ARG1', 'ARG2', 'ARG3' ] )
     ;
