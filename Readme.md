@@ -45,7 +45,7 @@ $ npm test
 
 ```bash
 $ cd sermone/
-$ npm run-script bench
+$ npm run bench
 ```
 
 ###Sample Usage
