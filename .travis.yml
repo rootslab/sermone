@@ -11,7 +11,7 @@ after_script:
  - codeclimate < coverage/lcov.info
 addons:
  code_climate:
-  repo_token: 8df1db9ce3b83822e3d97a72b57c3813495f22f3143965a5cdeb02fc6ef3732e
+  repo_token: 6d13179dbe665d3e31d2987e948c1ae094c137c0f235b2e52903c245be3911d8
 matrix:
  allow_failures:
   - node_js: "0.11"
