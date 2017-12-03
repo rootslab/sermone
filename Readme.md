@@ -1,29 +1,25 @@
-###Sermone
+### Sermone
 
 [![NPM VERSION](http://img.shields.io/npm/v/sermone.svg?style=flat)](https://www.npmjs.org/package/sermone)
 [![CODACY BADGE](https://img.shields.io/codacy/b18ed7d95b0a4707a0ff7b88b30d3def.svg?style=flat)](https://www.codacy.com/public/44gatti/sermone)
-[![CODECLIMATE](http://img.shields.io/codeclimate/github/rootslab/sermone.svg?style=flat)](https://codeclimate.com/github/rootslab/sermone)
 [![CODECLIMATE-TEST-COVERAGE](https://img.shields.io/codeclimate/coverage/github/rootslab/sermone.svg?style=flat)](https://codeclimate.com/github/rootslab/sermone)
 [![LICENSE](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rootslab/sermone#mit-license)
 
+![NODE VERSION](https://img.shields.io/node/v/sermone.svg)
 [![TRAVIS CI BUILD](http://img.shields.io/travis/rootslab/sermone.svg?style=flat)](http://travis-ci.org/rootslab/sermone)
 [![BUILD STATUS](http://img.shields.io/david/rootslab/sermone.svg?style=flat)](https://david-dm.org/rootslab/sermone)
 [![DEVDEPENDENCY STATUS](http://img.shields.io/david/dev/rootslab/sermone.svg?style=flat)](https://david-dm.org/rootslab/sermone#info=devDependencies)
-[![NPM DOWNLOADS](http://img.shields.io/npm/dm/sermone.svg?style=flat)](http://npm-stat.com/charts.html?package=sermone)
 
-[![NPM GRAPH1](https://nodei.co/npm-dl/sermone.png)](https://nodei.co/npm/sermone/)
+[![NPM MONTHLY](http://img.shields.io/npm/dm/sermone.svg?style=flat)](http://npm-stat.com/charts.html?package=sermone)
+![NPM YEARLY](https://img.shields.io/npm/dy/sermone.svg)
 
-[![NPM GRAPH2](https://nodei.co/npm/sermone.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/sermone/)
-
-[![status](https://sourcegraph.com/api/repos/github.com/rootslab/sermone/.badges/status.png)](https://sourcegraph.com/github.com/rootslab/sermone)
-[![views](https://sourcegraph.com/api/repos/github.com/rootslab/sermone/.counters/views.png)](https://sourcegraph.com/github.com/rootslab/sermone)
-[![views 24h](https://sourcegraph.com/api/repos/github.com/rootslab/sermone/.counters/views-24h.png)](https://sourcegraph.com/github.com/rootslab/sermone)
+[![NPM GRAPH](https://nodei.co/npm/sermone.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/sermone/)
 
 > **_Sermone_**, a __Redis__ protocol encoder for commands.
 
 > Try __[Syllabus](https://github.com/rootslab/syllabus)__ a collection of mix-ins for __Redis__ commands, builded upon **_Sermone.encode_**.
 
-###Install
+### Install
 
 ```bash
 $ npm install sermone [-g]
@@ -37,21 +33,21 @@ $ git clone git@github.com:rootslab/sermone.git
 var Sermone  = require( 'sermone' );
 ```
 
-###Run Tests
+### Run Tests
 
 ```bash
 $ cd sermone/
 $ npm test
 ```
 
-###Run Benchmark
+### Run Benchmark
 
 ```bash
 $ cd sermone/
 $ npm run bench
 ```
 
-###Sample Usage
+### Sample Usage
 
 ```javascript
 var Sermone  = require( 'sermone' );
@@ -59,7 +55,7 @@ Sermone.encode( 'CMD', 'KEY', [ 1, 2, 3 ], function () {} );
 ```
 > See [examples](example/).
 
-###Methods
+### Methods
 
 > Arguments within [ ] are optional, '|' indicates multiple type for an argument.
 
@@ -95,7 +91,7 @@ Sermone#encode( String cmd [, String key [, Array array [, Function fn [, Functi
 
 ### MIT License
 
-> Copyright (c) 2015 &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
@@ -115,5 +111,3 @@ Sermone#encode( String cmd [, String key [, Array array [, Function fn [, Functi
 > CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 > TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 > SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[![GA](https://ga-beacon.appspot.com/UA-53998692-1/sermone/Readme?pixel)](https://github.com/igrigorik/ga-beacon)
