@@ -91,7 +91,7 @@ Sermone#encode( String cmd [, String key [, Array array [, Function fn [, Functi
 
 ### MIT License
 
-> Copyright (c) 2015-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
+> Copyright (c) 2013-present &lt; Guglielmo Ferri : 44gatti@gmail.com &gt;
 
 > Permission is hereby granted, free of charge, to any person obtaining
 > a copy of this software and associated documentation files (the
